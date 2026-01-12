@@ -7,6 +7,7 @@ const nextConfig = {
     unoptimized: true,
   },
   output: "standalone",
+  outputFileTracingRoot: process.cwd(),
 };
 
 export default nextConfig;
