@@ -5,6 +5,7 @@ Bu proje Next.js ile oluşturulmuş bir web uygulamasıdır.
 ## Kurulum ve Çalıştırma
 
 ### Geliştirme Ortamı
+
 ```bash
 pnpm install
 pnpm dev
@@ -13,11 +14,13 @@ pnpm dev
 ### Docker ile Çalıştırma
 
 1. Docker imajını oluşturun:
+
 ```bash
 docker build -t test-app .
 ```
 
 2. Uygulamayı çalıştırın:
+
 ```bash
 docker run -p 3000:3000 test-app
 ```
