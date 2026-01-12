@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # 7. Port
-EXPOSE 6529x
+EXPOSE 6529
 
 # 8. Uygulamayı başlat
 CMD ["npm", "start"]
