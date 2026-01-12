@@ -1,5 +1,5 @@
 # 1. Base image
-FROM node:18-alpine
+FROM node:20-alpine AS builder
 
 # 2. Çalışma dizini
 WORKDIR /app
